@@ -1,0 +1,20 @@
+{
+  "name": "digidip",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/sdnievas/digidip.git",
+  "author": "Daniel Nievas",
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.7.18",
+    "typescript": "^4.8.3"
+  },
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
